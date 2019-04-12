@@ -25,7 +25,7 @@ SECRET_KEY = '($9-w4d$t5@&=%&7kx8@x+#$8$v#o$$t$pf@)6s*&w0#b(og6f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ifindstudio.pythonanywhere.com']
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'Asia/Bangkok'
+TIME_ZONE = 'Asia/Saigon'
 
 USE_I18N = True
 
